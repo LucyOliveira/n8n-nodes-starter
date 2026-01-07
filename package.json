@@ -1,6 +1,9 @@
 {
 	"name": "n8n-nodes-heritage",
 	"version": "0.1.0",
+	"overrides": {
+		"change-case": "4.1.2"
+	},
 	"description": "",
 	"license": "MIT",
 	"homepage": "",
@@ -9,7 +12,7 @@
 	],
 	"author": {
 		"name": "",
-		"email": ""
+		"email": "luciene.oliveira2@sa.gov.au"
 	},
 	"repository": {
 		"type": "git",
@@ -40,9 +43,9 @@
 		]
 	},
 	"devDependencies": {
-		"@n8n/node-cli": "*",
+		"@n8n/node-cli": "^0.17.0",
 		"eslint": "9.32.0",
-		"n8n-node-dev": "^1.120.1",
+		"n8n-node-dev": "^1.121.2",
 		"prettier": "3.6.2",
 		"release-it": "^19.0.4",
 		"typescript": "5.9.2"
